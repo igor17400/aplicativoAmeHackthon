@@ -13,5 +13,8 @@ struct K {
     static let menuViewController = "MenuViewController"
     static let cellIdentifier = "ReusableCell"
     static let cellNibName = "ProductPostCell"
+    static let salesmanSegue = "cadastroVendedor"
+    static let secondRegisterSalesman = "secondRegisterSalesman"
+    static let segueSalemanMain = "segueSalemanMain"
 }
 

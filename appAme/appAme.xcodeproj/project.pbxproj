@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -27,6 +27,9 @@
 		7892AC2924F22997009D4A70 /* ProductPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892AC2724F22997009D4A70 /* ProductPostCell.swift */; };
 		7892AC2A24F22997009D4A70 /* ProductPostCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7892AC2824F22997009D4A70 /* ProductPostCell.xib */; };
 		7892AC2C24F23C58009D4A70 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892AC2B24F23C58009D4A70 /* MapViewController.swift */; };
+		7892AC2E24F2CCFC009D4A70 /* RegisterSalesmanController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892AC2D24F2CCFC009D4A70 /* RegisterSalesmanController.swift */; };
+		7892AC3024F2D2CD009D4A70 /* InterestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892AC2F24F2D2CD009D4A70 /* InterestsViewController.swift */; };
+		7892AC3224F2D955009D4A70 /* SalesManViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7892AC3124F2D955009D4A70 /* SalesManViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +77,9 @@
 		7892AC2724F22997009D4A70 /* ProductPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductPostCell.swift; sourceTree = "<group>"; };
 		7892AC2824F22997009D4A70 /* ProductPostCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductPostCell.xib; sourceTree = "<group>"; };
 		7892AC2B24F23C58009D4A70 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7892AC2D24F2CCFC009D4A70 /* RegisterSalesmanController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterSalesmanController.swift; sourceTree = "<group>"; };
+		7892AC2F24F2D2CD009D4A70 /* InterestsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterestsViewController.swift; sourceTree = "<group>"; };
+		7892AC3124F2D955009D4A70 /* SalesManViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SalesManViewController.swift; sourceTree = "<group>"; };
 		836BE0E86E42ADC3B5010220 /* Pods_appAme_appAmeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appAme_appAmeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		83EEF9839FA06EEE872882F8 /* Pods-appAmeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-appAmeTests.debug.xcconfig"; path = "Target Support Files/Pods-appAmeTests/Pods-appAmeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8AC59039205FC9EA165B2605 /* Pods_appAme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_appAme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -192,6 +198,9 @@
 				786D592424F1604C009F87F4 /* SlideInTransition.swift */,
 				7892AC2524F22361009D4A70 /* SocialNetworkController.swift */,
 				7892AC2B24F23C58009D4A70 /* MapViewController.swift */,
+				7892AC2D24F2CCFC009D4A70 /* RegisterSalesmanController.swift */,
+				7892AC2F24F2D2CD009D4A70 /* InterestsViewController.swift */,
+				7892AC3124F2D955009D4A70 /* SalesManViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -206,7 +215,6 @@
 				83EEF9839FA06EEE872882F8 /* Pods-appAmeTests.debug.xcconfig */,
 				6076503270C749ED2468F472 /* Pods-appAmeTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -460,14 +468,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7892AC3224F2D955009D4A70 /* SalesManViewController.swift in Sources */,
 				7892AC2C24F23C58009D4A70 /* MapViewController.swift in Sources */,
 				786D591F24F141A1009F87F4 /* MainClientViewController.swift in Sources */,
 				786D592324F1515F009F87F4 /* MenuViewController.swift in Sources */,
 				786D592124F1421C009F87F4 /* Constants.swift in Sources */,
 				7892AC2424F222B0009D4A70 /* ProductPost.swift in Sources */,
 				786D58F024F13696009F87F4 /* FisrtViewController.swift in Sources */,
+				7892AC3024F2D2CD009D4A70 /* InterestsViewController.swift in Sources */,
 				7892AC2924F22997009D4A70 /* ProductPostCell.swift in Sources */,
 				786D592524F1604D009F87F4 /* SlideInTransition.swift in Sources */,
+				7892AC2E24F2CCFC009D4A70 /* RegisterSalesmanController.swift in Sources */,
 				786D58EC24F13696009F87F4 /* AppDelegate.swift in Sources */,
 				786D58EE24F13696009F87F4 /* SceneDelegate.swift in Sources */,
 				7892AC2624F22361009D4A70 /* SocialNetworkController.swift in Sources */,
