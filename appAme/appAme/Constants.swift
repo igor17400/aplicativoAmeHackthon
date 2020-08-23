@@ -10,5 +10,7 @@ struct K {
     static let appName = "Ame Extension App"
     static let clientSegue = "clientSegue"
     static let menuViewController = "MenuViewController"
+    static let cellIdentifier = "ReusableCell"
+    static let cellNibName = "ProductPostCell"
 }
 
