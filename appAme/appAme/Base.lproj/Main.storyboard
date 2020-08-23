@@ -30,7 +30,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AME +" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ITn-hj-jp0">
-                                                <rect key="frame" x="162" y="241" width="91" height="36"/>
+                                                <rect key="frame" x="161.5" y="241" width="91" height="36"/>
                                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -134,6 +134,7 @@
                     </view>
                     <connections>
                         <outlet property="LoginButton" destination="D9R-d3-Jad" id="A5l-6Q-CXW"/>
+                        <outlet property="appName" destination="ITn-hj-jp0" id="sK4-UW-AA0"/>
                         <segue destination="Uxm-Cq-dXs" kind="show" identifier="clientSegue" id="Qx7-ms-WN2"/>
                     </connections>
                 </viewController>

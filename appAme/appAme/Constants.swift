@@ -7,6 +7,7 @@
 //
 
 struct K {
+    static let appTitle = "Ame +"
     static let appName = "Ame Extension App"
     static let clientSegue = "clientSegue"
     static let menuViewController = "MenuViewController"

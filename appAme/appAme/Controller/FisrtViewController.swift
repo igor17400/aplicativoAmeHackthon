@@ -7,13 +7,17 @@
 //
 
 import UIKit
+import CLTypingLabel
 
 class FisrtViewController: UIViewController {
 
     @IBOutlet weak var LoginButton: UIButton!
+    @IBOutlet weak var appName: CLTypingLabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        appName.text = K.appTitle
     }
 
     @IBAction func LoginButtonPressed(_ sender: UIButton) {
