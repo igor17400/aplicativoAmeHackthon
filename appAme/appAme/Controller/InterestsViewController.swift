@@ -44,6 +44,7 @@ class InterestsViewController: UIViewController {
     }
     
     @IBAction func continuarPressed(_ sender: UIButton) {
+         self.performSegue(withIdentifier: K.segueSalemanMain, sender: self)
     }
     //Calls this function when the tap is recognized.
     @objc func dismissKeyboard() {

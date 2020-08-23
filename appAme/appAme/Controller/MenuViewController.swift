@@ -15,6 +15,7 @@ enum MenuType: Int {
     case servicos
     case doacoes
     case convidar
+    case SAIR
 }
 
 class MenuViewController: UITableViewController {
